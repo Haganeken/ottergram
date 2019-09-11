@@ -10,6 +10,7 @@ function addKeyPressHandler() {
   "use strict";
   document.body.addEventListener("keyup", function(event) {
     event.preventDefault();
+     /*eslint-disable-next-line no-console*/
     console.log(event.keyCode);
     if (event.keyCode === ESC_KEY) {
       hideDetails();
