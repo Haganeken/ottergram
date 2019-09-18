@@ -140,11 +140,6 @@ a {
   max-width: 80%;
 }
 
-.next {
-  display: inline;
-  margin-right:80px;
-}
-
 @media all and (min-width: 768px) {
   .main-content {
     flex-direction: row;
